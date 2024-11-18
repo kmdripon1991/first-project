@@ -12,6 +12,7 @@ export default [
   {
     ignores: ['node_modules', 'dist'],
     rules: {
+      'prettier/prettier': ['error', { endOfLine: 'lf' }],
       'no-unused-vars': 'error',
       'no-unused-expressions': 'error',
       'prefer-const': 'error',
